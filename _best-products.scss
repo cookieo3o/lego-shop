@@ -114,19 +114,24 @@
 
       i {
         font-size: $fs-xl;
+        color: $c-white;
+      }
+
+      span {
+        color: $c-white;
       }
 
       //순위별 배경색 클래스 (그라디언트 변수 사용)
       &.rank-1 {
-        background: $g-brand-primary; //브랜드 기본 그라디언트
+        background: $g-brand-primary;
       }
 
       &.rank-2 {
-        background: $g-brand-warm; //브랜드 웜 그라디언트
+        background: $g-brand-warm;
       }
 
       &.rank-3 {
-        background: $g-accent-pink; //액센트 핑크 그라디언트
+        background: $g-accent-pink;
       }
     }
 
